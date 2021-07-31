@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "472987481622",
+    "firebase_url": "https://fir-auth-dad60-default-rtdb.europe-west1.firebasedatabase.app",
     "project_id": "fir-auth-dad60",
     "storage_bucket": "fir-auth-dad60.appspot.com"
   },
@@ -10,6 +11,35 @@
         "mobilesdk_app_id": "1:472987481622:android:cea4de36459c5742996737",
         "android_client_info": {
           "package_name": "com.example.firebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472987481622-gt83r0ukd4b3fn582aohavfv77j4ni4b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSOjVKeA_wFkFhHhNjTuBAFXyEXJY4Ixw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472987481622-gt83r0ukd4b3fn582aohavfv77j4ni4b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472987481622:android:1f7dc4251d072387996737",
+        "android_client_info": {
+          "package_name": "com.example.simplefirestore"
         }
       },
       "oauth_client": [

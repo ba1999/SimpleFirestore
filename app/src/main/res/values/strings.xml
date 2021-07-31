@@ -23,4 +23,15 @@
     <string name="send">Senden</string>
     <string name="forgotPw_title">Passwort vergessen</string>
     <string name="forgotPw_msg">Geben Sie Ihre Email ein.</string>
+
+    <string name="btnSearchDB">Auswerten</string>
+    <string name="txt1">Raum</string>
+    <string name="txt2">Temperatur</string>
+    <string name="txt3">Luftfeuchte</string>
+    <string name="txt4">Datum YYYY-MM-DD</string>
+    <string name="btn">Speichern</string>
+    <string name="eingabefehler">Alle Felder ausfüllen</string>
+    <string name="save">gespeichert</string>
+    <string name="not_save">nicht gespeichert</string>
+
 </resources>

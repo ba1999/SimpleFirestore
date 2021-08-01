@@ -2,7 +2,6 @@ package com.example.simplefirestore
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Button
@@ -67,9 +66,21 @@ class MainActivity : AppCompatActivity() {
         weather.setHum(hum)
         weather.setDate(date)
 
+
+        // Wandle String date (im Format yyyy-MM-dd !!!) um in ein Date Objekt
+        val dateFormat: DateFormat = SimpleDateFormat("yyyy-MM-dd")
+        var datetimestamp: Date? = null
+        try {
+            datetimestamp = dateFormat.parse(date)
+        } catch (e: ParseException) {
+            e.printStackTrace()
+        }
+        weather.setDateTimestamp(datetimestamp)
+
         // Schreibe Daten als Document in die Collection Messungen in DB;
         // Eine id als Document Name wird automatisch vergeben
-        db.collection("Messungen")
+        val uid = mFirebaseAuth.currentUser!!.uid
+        db.collection("users").document(uid).collection("Messungen")
             .add(weather)
             .addOnSuccessListener { documentReference ->
                 toast(getString(R.string.save))

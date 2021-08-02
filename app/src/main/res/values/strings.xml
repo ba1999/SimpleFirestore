@@ -34,4 +34,17 @@
     <string name="save">gespeichert</string>
     <string name="not_save">nicht gespeichert</string>
 
+    <string name="rbtn1">Raum</string>
+    <string name="rbtn2">Temp</string>
+    <string name="rbtn3">Datum</string>
+    <string name="rbtn4">Top 5</string>
+    <string name="rbtn5">Lösche</string>
+    <string name="txtFilter">Filterwert oder Lösch-ID</string>
+    <string name="txtErklärung">Geben Sie einen Filterwert
+        (Raum, Temperatur oder Datum)
+        oder eine ID zum Löschen an.
+        Für Top 5 müssen Sie keinen Wert angeben.</string>
+    <string name="filterwertfehler">kein gültiger Filterwert</string>
+    <string name="btnFilter">Filtern/Löschen</string>
+
 </resources>

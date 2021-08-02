@@ -53,7 +53,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         btnAnalyze.setOnClickListener {
-
+            val intent = Intent(this, SearchDatabase::class.java)
+            startActivity(intent)
         }
     }
 

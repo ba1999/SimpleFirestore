@@ -42,12 +42,15 @@ class Weather {
 
     override fun toString(): String {
         return "Weather{" +
+                "id='" + id + '\'' +
                 ", hum=" + hum +
                 ", raum='" + raum + '\'' +
                 ", temperatur=" + temperatur +
                 ", date='" + date + '\'' +
+                ", dateTimestamp=" + dateTimestamp +
                 '}'
     }
+
 
     fun setServerTimestamp(serverTimestamp: Timestamp?) {
         this.serverTimestamp = serverTimestamp

@@ -15,7 +15,6 @@ class Weather {
     private var date: String? = null
     private var dateTimestamp: Date? = null
 
-
     // serverTimestamp soll automatisch vom Server gesetzt werden
     @ServerTimestamp
     private var serverTimestamp: Timestamp? = null
